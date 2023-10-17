@@ -31,7 +31,7 @@ const HeroSection = () => {
           </h1>
           <p className="text-white border-b-2 w-auto sm:w-[280px] md:w-[320px] lg:w-[424px] text-lg lg:text-2xl mb-6 lg:mb-20">Me gustaria formar parte de tu empresa</p>
           <div>
-            <a type='button' href='https://api.whatsapp.com/send?phone=+04149105229' className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-pulple-500 to-pink-500 hover:bg-slate-200 text-white'>
+            <a type='button' href='https://wa.me/584149105229' className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-pulple-500 to-pink-500 hover:bg-slate-200 text-white'>
               <span>
                 Contactame
               </span>
