@@ -46,10 +46,8 @@ const ProjectSection = () => {
   )
 
   return (
-    <section id='projects' className='h-fit pt-24 relative'>
+    <section id='projects' className='h-fit sm:pt-24 relative'>
       <div className='sm:bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-400 to-transparent rounded-full h-60 w-60 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2'></div>
-      <h2>My Projects</h2>
-
       <div className=' flex flex-row justify-center items-center gap-2 text-white py-6 z-10'>
         <ProjectTag 
         onClick={handleTagChange} 
