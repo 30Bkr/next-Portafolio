@@ -5,7 +5,8 @@ import { TypeAnimation } from 'react-type-animation'
 
 const HeroSection = () => {
   return (
-    <section className='h-screen'>
+    <section className='h-screen relative'>
+      <div className='sm:bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2'></div>
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-7 w-full place-self-center text-center sm:text-left">
           <h1 className=" text-white  justify-start mb-4 sm:text-3xl lg:text-5xl lg:leading-normal font-bold flex flex-col">
@@ -28,10 +29,12 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-white border-b-2 w-[424px] text-lg lg:text-2xl mb-6 lg:mb-20">Me gustaria formar parte de tu empresa</p>
+          <p className="text-white border-b-2 w-auto sm:w-[280px] md:w-[320px] lg:w-[424px] text-lg lg:text-2xl mb-6 lg:mb-20">Me gustaria formar parte de tu empresa</p>
           <div>
-            <a href='https://api.whatsapp.com/send?phone=+04149105229' className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-pulple-500 to-pink-500 hover:bg-slate-200 text-white'>
-              Contratame
+            <a type='button' href='https://api.whatsapp.com/send?phone=+04149105229' className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-pulple-500 to-pink-500 hover:bg-slate-200 text-white'>
+              <span>
+                Contactame
+              </span>
             </a>
             <a type='button' download='Briant Carrillo' href='/images/briant.pdf' className='px-1 py-1 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3 mb-4'>
               <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>

@@ -5,7 +5,7 @@ import React from 'react'
 
 const ProjectCard = ({imgURL, title, description, gitUrl, previewUrl} : any) => {
   return (
-    <div>
+    <div className='z-10'>
       <div 
       className="h-52 md:h-72 rounded-t-xl relative group"
       >
