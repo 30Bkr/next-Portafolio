@@ -3,6 +3,7 @@ import AboutSection  from '@/components/about-sections';
 import HeroSection from '@/components/hero-section';
 import Navbar from '@/components/navbar';
 import ProjectSection from '@/components/project-section';
+import Contact from '@/components/contact';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <HeroSection />
         <AboutSection />
         <ProjectSection />
+        <Contact />
       </div>
       <Footer />
     </main>
